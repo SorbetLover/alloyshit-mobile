@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD", "5k"
+	],
+	"icon": "face",
+	"parsedColor": -7179779,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "stargazer",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180,
+	"name": "stargazer"
+}

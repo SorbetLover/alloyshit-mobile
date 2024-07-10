@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "face",
+	"parsedColor": -7179779,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "prey",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 176,
+	"name": "prey"
+}
