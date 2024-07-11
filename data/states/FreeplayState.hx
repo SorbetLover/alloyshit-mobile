@@ -60,7 +60,7 @@ function beatHit(){
         for(i in grpSongs.members){
                 i.scale.set(1.1,1.1);
         }
-        bg.scale.set(1.1,1.1);
+        bg.scale.set(1.7,1.7);
         }
     
     // trace(Conductor.crochet / 10000);
@@ -90,13 +90,13 @@ function postUpdate(){
         i.scale.x = FlxMath.lerp(i.scale.x, 1, Conductor.crochet / 10000);
         i.scale.y = i.scale.x;
     }
-        bg.scale.x = FlxMath.lerp(bg.scale.x, 1, Conductor.crochet / 10000);
+        bg.scale.x = FlxMath.lerp(bg.scale.x, 1.5, Conductor.crochet / 10000);
         bg.scale.y = bg.scale.x;
     
 }
 
 function onChangeSelection(){
     for(i in iconArray){
-                        i.scale.set(1.2,1.2);
+                        i.scale.set(1.15,1.15);
     }
 }
